@@ -45,9 +45,20 @@ calToggleSwitch.addEventListener("click",
 curToggleSwitch.addEventListener("click", 
 (event) => {
     if(event.target.checked){
-        console.log("currency switch is active")
+        Investment.value = Investment.value / 70
+        numberOfYears.value = numberOfYears.value / 70
+        expectedRate.value = expectedRate.value / 70
+        totalInvest.value = totalInvest.value / 70
+        amountGained.value = amountGained.value / 70
+        Maturity.value = Maturity.value / 70
+
     }else{
-        console.log("currency switch is not active")
+        Investment.value = Investment.value*70
+        numberOfYears.value = numberOfYears.value*70
+        expectedRate.value = expectedRate.value*70
+        totalInvest.value = totalInvest.value*70
+        amountGained.value = amountGained.value*70
+        Maturity.value = Maturity.value*70
     }
 })
 
