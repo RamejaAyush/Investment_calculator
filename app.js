@@ -46,16 +46,12 @@ curToggleSwitch.addEventListener("click",
 (event) => {
     if(event.target.checked){
         Investment.value = Investment.value / 70
-        numberOfYears.value = numberOfYears.value / 70
-        expectedRate.value = expectedRate.value / 70
         totalInvest.value = totalInvest.value / 70
         amountGained.value = amountGained.value / 70
         Maturity.value = Maturity.value / 70
 
     }else{
         Investment.value = Investment.value*70
-        numberOfYears.value = numberOfYears.value*70
-        expectedRate.value = expectedRate.value*70
         totalInvest.value = totalInvest.value*70
         amountGained.value = amountGained.value*70
         Maturity.value = Maturity.value*70
