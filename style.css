@@ -164,7 +164,8 @@ input:checked + .slider:before {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.cal .cal-bottom .enter-info button{
+.cal .cal-bottom .enter-info button,
+.cal .cal-bottom .result button{
     padding: 8px;
     border: none;
     border-radius: 5px;
@@ -174,7 +175,8 @@ input:checked + .slider:before {
     transition: all 100ms ease-in-out;
 }
 
-.cal .cal-bottom .enter-info button:hover{
+.cal .cal-bottom .enter-info button:hover,
+.cal .cal-bottom .result button:hover{
     transform: scale(1.1);
 }
 

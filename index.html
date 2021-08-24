@@ -56,14 +56,14 @@
                     </label>
                     <input 
                         type="number" id="Investment"
-                        placeholder="example 10000">
+                        placeholder="example 10000" required>
 
                     <label for="numberOfYears">
                         Number of years
                     </label>
                     <input 
                         type="number" id="numberOfYears"
-                        placeholder="example 5 years">
+                        placeholder="example 5 years" required>
 
                     <label for="expected">
                         Expected Rate of Return
@@ -71,7 +71,7 @@
                     <input 
                         type="number" 
                         id="expected"
-                        placeholder="example 8%">
+                        placeholder="example 8%" required>
                     
                     <button class="calculate">
                         Calculate
@@ -104,6 +104,9 @@
                         id="maturity"
                         readonly
                         placeholder="Your Result">
+                    <button class="Clear">
+                            Clear
+                    </button>
                 </div>
             </div>
         </section>
